@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+      "target": "ESNext",
+      "module": "ESNext",
+      "moduleResolution": "node",
+      "strict": true,
+      "jsx": "react-jsx",
+      "declaration": true,
+      "composite": true,
+      "skipLibCheck": true
+    },
+    "include": [
+        "packages/types/**/*.ts", 
+        "packages/ui/**/*.ts", 
+        "apps/**/*"
+    ]
+  }

@@ -1,0 +1,9 @@
+{
+  "name": "@my-monorepo/styles",
+  "version": "1.0.0",
+  "packageManager": "pnpm@10.6.1",
+  "exports": {
+    "./style1.css": "./src/style1.css",
+    "./style2.css": "./src/style2.css"
+  }
+}
